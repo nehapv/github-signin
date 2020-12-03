@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Github Sign In Page</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">	
+	<div class="logo">
+		<img src="githublogo.png" alt="GitHub">
+	</div>
+	<div class="title">
+		<p>Welcome</p>
+	</div>
+
+    <form class="form"  onsubmit="validateForm()" name="myForm" action="index.html" >
+		<div class="input_field">
+			<label>Username </label>
+			<input type="text" class="input" name="myname" value="Neha"  required>
+			
+		</div>
+
+        <div class="input_field"> 
+			<label>Email</label>
+			<input type="text" class="input" name="myEmail" value="neha1998@gmail.com"  >
+		</div>
+
+		<div class="input_field">
+			<label>Bio</label>
+
+			<textarea name="mytext"  cols="35"  rows="4"></textarea>
+			
+		</div>
+		
+		<div class="input_field">
+			<label>URL</label>
+			<input type="text" class="input" >
+		</div>
+
+		<div class="input_field">
+			<label>Twitter username</label>
+			<input type="text" class="input" >
+		</div>
+
+		<div  class="input_field">
+			<label>Company</label>
+			<input type="text" class="input" >
+		</div>
+
+
+        <div class="btn">
+			<button  type="submit"  class="sign_btn" >Logout</button> 
+			<!-- <a href="index3.html" type="SUBMIT" CLASS="sign_btn"  >Sign In</a> -->
+		</div>
+	</form>
+	
+</div>
+
+<script src="logic.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Github Sign In Page</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">	
+	<div class="logo">
+		<img src="githublogo.png" alt="GitHub">
+	</div>
+	<div class="title">
+		<p>Sign in to GitHub</p>
+	</div>
+	<form class="form"   name="myForm" action="index3.html" >
+		<div class="input_field">
+			<label>Username or email address</label>
+			<input type="text" class="input" name="myname"  id="email" required>
+		</div>
+		<div class="input_field">
+			<label>Password</label>
+			<input type="password" class="input" id="password" required>
+			<a href="index2.html" class="forgot" >Forgot password?</a>
+		</div>
+	
+
+
+<div class="btn">
+			<button  type="submit"  class="sign_btn" onclick="validateUser()" >Sign in</button> 
+			
+		</div>
+
+	</form>
+	<div class="create_act">
+		<p>New to GitHub? <a href="index1.html">Create an account.</a></p>
+	</div>
+	<div class="footer">
+		<ul>
+			<li><a href="#">Terms</a></li>
+			<li><a href="#">Privacy</a></li>
+			<li><a href="#">Security</a></li>
+			<li><a href="#">Contact GitHub</a></li>
+		</ul>
+	</div> 
+</div>
+
+<script src="logic.js"></script>
+
+</body>
+</html>
+
+
