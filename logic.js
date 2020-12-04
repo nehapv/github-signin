@@ -20,7 +20,7 @@ function createUser(){
     var password = document.getElementById('password').value;
 
 
-    // perform validation
+    
     if(name == "" || email==""){
         alert("Enter Email/Username");
         return false;
@@ -35,10 +35,31 @@ function createUser(){
 
 function oUser(){
     
-    var pemail = document.getElementById('lemail').value;
+    var pemail = document.getElementById('newemail').value;
     if(pemail ==  "  "){
         alert("Enter Email");
-        return false;
+        // return false;
+      
     }
+    // else
+    // alert("enter email")
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let users = JSON.parse(localStorage.getItem("users")) ;
+// 	let loggedIn = localStorage.getItem("loggedIn") ;
+
+
